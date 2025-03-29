@@ -1,5 +1,9 @@
 title: "Critical Making Portfolio"
 description: "A simple portfolio site for class"
-baseurl: "/critical-making-portfolio"  # Important for GitHub Pages
+baseurl: "/critical-making-portfolio"
 url: "https://cestinnett.github.io"
-theme: "so-simple-theme"
+remote_theme: "mmistakes/so-simple-theme"
+
+plugins:
+  - jekyll-remote-theme # Required for GitHub Pages
+  - jekyll-seo-tag
