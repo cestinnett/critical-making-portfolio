@@ -1,6 +1,5 @@
 ---
 title: "Critical Making Portfolio"
-theme: cayman
 ---
 
 # Critical Making Portfolio
