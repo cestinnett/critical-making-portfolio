@@ -3,7 +3,6 @@ layout: home
 title: "Critical Making Portfolio"
 image:
   path: /assets/images/banner.png
-    height: 300px
 ---
 
 ## About My Work
