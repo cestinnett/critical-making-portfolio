@@ -6,3 +6,15 @@ sitemap: false
 @charset "utf-8";
 
 @import "so-simple";
+
+.page-header {
+    height: 600px; /* Set your desired height */
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
