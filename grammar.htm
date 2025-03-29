@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://iloveepoetry.org/creative/floresgenerativetemplate.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The Postfeminist Ad Generator</title>
+    
+    <meta name="description" content="Describe the work here.">
+	<meta name="keywords" content="Enter a comma separated list of keywords for search engines to find your work.">
+	<meta name="author" content="Your name">
+<!--
+Leonardo Flores' Generative Template
+
+Copyright 2023 Leonardo Flores
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!-- 
+Enter your own credits or author's statement here.
+-->
+<style>
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebe0; /* Soft peach */
+    color: #2b2b2b; /* Dark gray for readability */
+}
+
+/* Title Styling (Smaller & Less Bold) */
+#title-container {
+    width: 100%;
+    text-align: center; 
+    color: #b22222; /* Warm rose pink */
+    font-size: 3.2em; /* Reduced size */
+    font-family: "Arial", sans-serif; /* Simpler and more balanced */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 600; /* Slightly bold but not overpowering */
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    #title-container {
+        font-size: 2.5em;
+    }
+
+    #text-container {
+        width: 100%;
+        font-size: 1.8em;
+    }
+}
+
+/* Text Container Styling */
+#text-container {
+    text-align: center;
+    font-size: 2.5em; 
+    color: #2b2b2b; 
+    margin: auto; 
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 80%;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Container */
+#button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+/* Button Styling (Changed to Teal) */
+.button {
+    margin: 10px;
+    font-size: 1.8em;
+    background-color: #2a9d8f; /* Rich teal */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #1f776b; /* Darker teal */
+}
+
+/* Modal (About Box) Styling */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5); 
+}
+
+/* Modal Content (The About Box) */
+.modal-content {
+    background-color: #fff5f0; /* Soft peachy pink */
+    margin: 10% auto; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 
+</style>
+    </head>
+    <body>
+<!-- Replace the word "Title" below with the title for your work. -->
+        <div id="title-container">The Postfeminist Ad Generator</div> 
+        <div id="text-container">Click "Regenerate" to generate a new ad.</div>
+        <div id="button-container">
+            <button class="button" onclick="displayAbout()">About</button>
+            <button class="button" onclick="displayString()">Regenerate</button>
+        </div>
+        <div id="myModal" class="modal">
+<!-- Replace the statement below with your own artistic statement. The <p></p> tags mark the beginning and end of a paragraph. -->
+            <div class="modal-content">
+                <span class="close">×</span>
+                <p><strong>The Postfeminist Ad Generator</strong> is a satirical take on the language of corporate empowerment. Using procedural text generation, it mimics the empty slogans of marketing campaigns that claim to uplift women while ultimately reinforcing capitalist ideals.</p>
+                <p>By remixing common phrases from branding and self-help culture, this project exposes the way feminist language is often commodified into aesthetic, consumable products rather than meaningful change.</p>
+                <p>Inspired by algorithmic advertising, this generator highlights the tension between genuine empowerment and the forces of marketing that seek to profit from it. Some word choices and structures were generated with assistance from ChatGPT, reflecting the ways AI can both reinforce and critique digital culture.</p>
+            </div>
+            </div>
+        </div>
+<!-- The script below is your primary writing space, where you get to design the sentence templates, variables, and datasets. The sentence templates are in "origin" and you can modify them as you see fit, following the following logics derived from Tracery: variables are held between hastags (#) in the dataset, and they are defined below between quotation marks. Items in the dataset are inside quotation marks and separated by commas. You can rename any and all variables and add as many as you like, but keep the top one as "origin". All the datasets can be modified. Be sure to define the datasets for all variables. If you wish to add line breaks, insert the code <br> within the sentence template, you need to do it later in the script.-->
+		<script>
+var obj = {
+    "origin": [
+        "Hey #possessive# - <br>You deserve to #empowermentVerb_action#.<br>That's why we made the #adjective# #product#.<br>#callToAction#",
+        "Tired of #obstacle# holding you back?<br>#ProductCaps# is here to #marketingJargon#.<br>#feministSoundbite#",
+        "#empowermentVerb_noun# is a mindset.<br>Get the #adjective# #product# #capitalistIncentive#.<br>#callToAction#"
+    ],
+    "possessive": ["Boss Babe", "Fearless Leader", "Powerhouse Girl", "Unstoppable Lady", "Trailblazer", "Icon in the Making", "Goal-Getter", "Game-Changer", "Ambitious Queen", "Power Player"],
+    "product": ["lipstick", "tote bag", "planner", "pink razor", "glittery notebook", "self-care subscription box", "vision board kit", "power blazer", "crystal-infused water bottle", "vegan collagen powder", "goal-setting journal", "motivational candle"],
+    "ProductCaps": ["Lipstick", "Tote Bag", "Planner", "Pink Razor", "Glittery Notebook", "Self-Care Subscription Box", "Vision Board Kit", "Power Blazer", "Crystal-Infused Water Bottle", "Vegan Collagen Powder", "Goal-Setting Journal", "Motivational Candle"],
+
+    /* Corrected Empowerment Verbs */
+    "empowermentVerb_action": ["crush it", "conquer challenges", "radiate confidence", "hustle hard", "manifest success", "level up", "slay every goal", "own your power", "glow with confidence", "dominate the game", "step into your greatness", "turn heads", "rewrite the rules"],
+    "empowermentVerb_noun": ["Crushing it", "Conquering challenges", "Radiating confidence", "Hustling", "Manifesting success", "Leveling up", "Slaying every goal", "Owning your power", "Glowing with confidence", "Dominating the game", "Stepping into your greatness", "Turning heads", "Rewriting the rules"],
+
+    "adjective": ["fearless", "unstoppable", "glowing", "powerful", "limitless", "badass", "high-vibe", "iconic", "magnetic", "trailblazing", "audacious", "bold"],
+    "marketingJargon": ["disrupt", "elevate", "own your power", "reinvent the game", "slay", "rewrite the rules", "lead with confidence", "step into your purpose", "ignite success", "unleash your potential"],
+    "callToAction": ["Buy now!", "Join the movement!", "Be iconic!", "Glow up today!", "Snag yours before it's gone!", "Invest in yourself!", "Step into your power!", "Start your journey!", "Live your truth!"],
+    "obstacle": ["the haters", "self-doubt", "imposter syndrome", "bad vibes", "negativity", "glass ceilings", "toxic energy", "fear of success", "playing small", "burnout", "expectations"],
+    "capitalistIncentive": ["for just $9.99", "in limited edition", "because success is stylish", "as seen on influencers", "with a free gift", "while supplies last", "so you can thrive", "because you're worth it"],
+    "feministSoundbite": ["Smash the patriarchy!", "Girls run the world!", "Strong is the new pretty.", "The future is female.", "Empowered women empower women.", "Rewrite the rules!", "Success looks good on you.", "Take up space!", "Dream big, hustle hard!"],
+    "fakeBrand": ["GlowCo.", "BossWear", "Limitless Beauty", "Trailblaze", "PowerHaus", "EmpowerLab", "Manifestation Nation", "High Vibe Co.", "Unstoppable Glow", "Iconic Energy", "Fearless Femme"]
+};
+
+// This function detects variables and resolves them
+function generateString(template) {
+    let placeholder = template.match(/#([^#]+)#/);
+    while (placeholder) {
+        let [fullMatch, key] = placeholder;
+        let choices = obj[key];
+        if (!choices) {
+            throw new Error(`No choices for key '${key}'`);
+        }
+        let choice = choices[Math.floor(Math.random() * choices.length)];
+        template = template.replace(fullMatch, generateString(choice));
+        placeholder = template.match(/#([^#]+)#/);
+    }
+    return template;
+}
+
+var timer;  // to keep track of the timer
+
+// This function generates the text when it loads, clears any existing timer, then sets up a new timer to do it again after 30 seconds
+function displayString() {
+    var randomIndex = Math.floor(Math.random() * obj.origin.length);
+    document.getElementById('text-container').innerHTML = generateString(obj.origin[randomIndex]);
+    
+    // clear any existing timer
+    clearTimeout(timer);
+    // set a new timer
+    timer = setTimeout(displayString, 30000); // This makes the text regenerate every 30 seconds. Modify this number to make it regenerate more slowly or delete, if you don't want it to regenerate.
+}
+
+// Call once at the beginning
+displayString();
+  
+            // Get the modal - this is the About pop-up text.
+            var modal = document.getElementById("myModal");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            // Function to display the about modal
+            function displayAbout() {
+                modal.style.display = "block";
+            }
+// This makes it so the text goes fullscreen if you click anywhere. I find texts look better when fullscreen. It doesn't work on phones or tablets.
+
+</script>
+
+
+<iframe id="eeKFvkdR" frameborder="0" src="./grammar_files/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>
