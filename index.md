@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "Critical Making Portfolio"
+header:
+  image: /assets/images/banner.jpg
 ---
 
 ## About My Work
