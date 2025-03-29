@@ -1,11 +1,16 @@
+---
+title: "Critical Making Portfolio"
+theme: cayman
+---
+
 # Critical Making Portfolio
 
 ## About My Work
 
-Something super cool about all the stuff I do
+Something super cool about all the stuff I do.
 
 ## Links to some samples
-- [title] (https://link)
-- [P5.js Sketch] (link)
-- [Bitsy] (link)
-- [Twine] (link)
+- [Title](https://link)
+- [P5.js Sketch](https://link)
+- [Bitsy](https://link)
+- [Twine](https://link)
