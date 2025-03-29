@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Critical Making Portfolio
+layout: home
+title: "Critical Making Portfolio"
 ---
 
 ## About My Work
