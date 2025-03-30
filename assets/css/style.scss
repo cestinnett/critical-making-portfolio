@@ -1,12 +1,7 @@
-body {
-    background-color: #f0f0f0; /* Change background color */
-  }
-  
-  .site-title {
-    color: #003366; /* Change title color */
-  }
-  
-  a {
-    color: #e63946; /* Change link color */
+@import "{{ site.theme }}";
+
+/* Change the color of the main heading */
+h1 {
+    color: #ff5733; /* Orange color */
   }
   
