@@ -7,6 +7,7 @@
 header {
     background: #34495E; /* Blue-gray for the header */
     color: white;         /* White text */
+    font-family: Arial, sans-serif; /* Use system default sans-serif font */
 }
 
 /* Header Button Styling */
@@ -34,19 +35,22 @@ aside a.button {
     color: #F39C12; /* Gold color for slash */
 }
 
-/* Headings (h1, h2, etc.) */
+/* Headings (h1, h2) */
 #main-content h1, #main-content h2 {
     color: #2C3E50; /* Dark blue-gray for main headings */
+    font-family: Arial, sans-serif; /* Use system font for headings */
+    font-weight: bold; /* Bold weight for headers */
 }
 
 /* Other Headings (h3, h4, etc.) */
 #main-content h3, #main-content h4, #main-content h6 {
     color: #34495E; /* Lighter blue-gray for subheadings */
+    font-family: Arial, sans-serif; /* Use system font for subheadings */
 }
 
 /* Body Font (Larger and New Font) */
 body {
-    font-family: 'Arial', sans-serif; /* Neutral font */
+    font-family: Arial, sans-serif; /* System font for body */
     font-size: 18px;                   /* Default font size for readability */
     line-height: 1.6;                  /* Increase line height for better readability */
 }
