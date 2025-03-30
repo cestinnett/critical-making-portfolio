@@ -1,17 +1,4 @@
----
-layout: default
-title: Carol Stinnett
----
 ## Hi there, I'm Carol
-
-![Featured Image](/assets/headshot.jpg)
-
-
-- [Hi there, I'm Carol](#hi-there-im-carol)
-- [About Me](#about-me)
-- [Research Aspirations](#research-aspirations)
-- [Let's Get Social](#lets-get-social)
-
 
 ## About Me
 
