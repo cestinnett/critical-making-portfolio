@@ -3,72 +3,80 @@
 
 @import "{{ site.theme }}";
 
-/* Change Header Color */
+@import "{{ site.theme }}";
+
 header {
-    background: #2C3E50; /* Dark Slate Blue */
-    color: white; /* Text color in the header */
+
+    background: black;
+
 }
 
-/* Change Button Colors */
 header a.button {
-    background: #2980B9; /* A more neutral, professional blue */
-    color: white; /* Make text color inside button white */
-    font-size: 16px; /* Slightly larger font for buttons */
+
+    background: green
+
 }
 
 aside a.button {
-    background: #27AE60; /* A more subdued green */
-    color: white; /* Button text in white */
+
+    background: darkgreen
+
 }
 
-/* Change color of slashes in the header */
-header h2:before {
-    color: #F39C12; /* A goldish color for emphasis */
-}
-
-/* Change colors for subheadings */
-#main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h6 {
-    color: #34495E; /* A darker shade of gray/blue */
-}
-
-/* Increase font size and change font family */
-body {
-    font-family: 'Arial', sans-serif; /* Change to a more neutral, modern font */
-    font-size: 18px; /* Larger text for easier reading */
-}
-
-/* Adjust slashes' color in headers */
 #main-content h2:before {
-    color: #F39C12; /* A goldish color */
+
+    color: lightgreen;
+
 }
 
 #main-content h1:before {
-    color: #F39C12; /* A goldish color */
+
+    color: lightgreen;
+
 }
+
+#main-content h3 {
+
+    color: lightgreen;
+
+  }
+
+  #main-content h4 {
+
+    color: lightgreen;
+
+  }
+
+  #main-content h6 {
+
+    color: lightgreen;
+
+  }
 
 /* Ensure the content spans full width */
 #content-wrapper {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.inner {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-#main-content {
-    width: 100%;
-}
-
-header {
-    width: 100%;
-    padding: 0;
-}
-
-footer {
-    width: 100%;
-    padding: 0;
-}
+    width: 100%;  /* Full width of the viewport */
+    margin: 0;    /* Remove margins */
+    padding: 0;   /* Remove padding */
+  }
+  
+  .inner {
+    width: 100%;  /* Make the inner content span 100% of the available space */
+    padding: 0;   /* Remove any padding */
+    margin: 0;    /* Remove any margin */
+  }
+  
+  #main-content {
+    width: 100%;  /* Make sure main content spans 100% */
+  }
+  
+  header {
+    width: 100%;  /* Ensure the header spans full width */
+    padding: 0;   /* Remove any padding from header */
+  }
+  
+  footer {
+    width: 100%;  /* Ensure the footer spans full width */
+    padding: 0;   /* Remove any padding from footer */
+  }
+  
