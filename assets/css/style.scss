@@ -3,50 +3,50 @@
 
 @import "{{ site.theme }}";
 
+/* Header Styling */
 header {
-
-    background: black;
-
+    background: #34495E; /* Blue-gray for the header */
+    color: white;         /* White text */
 }
 
+/* Header Button Styling */
 header a.button {
-
-    background: green
-
+    background: #2980B9; /* A deeper blue for buttons */
+    color: white;         /* White text for buttons */
+    font-size: 18px;      /* Slightly larger font for readability */
+    padding: 12px 20px;   /* Add padding for better button feel */
 }
 
+/* Sidebar Button Styling */
 aside a.button {
-
-    background: darkgreen
-
+    background: #27AE60; /* A fresh green for sidebar buttons */
+    color: white;         /* White text */
+    font-size: 18px;      /* Larger font for better readability */
+    padding: 12px 20px;   /* Add padding for better button feel */
 }
 
+/* Slash Colors (Top Heading Section) */
 #main-content h2:before {
-
-    color: lightgreen;
-
+    color: #F39C12; /* Gold color for emphasis */
 }
 
 #main-content h1:before {
-
-    color: lightgreen;
-
+    color: #F39C12; /* Gold color for slash */
 }
 
-#main-content h3 {
+/* Headings (h1, h2, etc.) */
+#main-content h1, #main-content h2 {
+    color: #2C3E50; /* Dark blue-gray for main headings */
+}
 
-    color: lightgreen;
+/* Other Headings (h3, h4, etc.) */
+#main-content h3, #main-content h4, #main-content h6 {
+    color: #34495E; /* Lighter blue-gray for subheadings */
+}
 
-  }
-
-  #main-content h4 {
-
-    color: lightgreen;
-
-  }
-
-  #main-content h6 {
-
-    color: lightgreen;
-
-  }
+/* Body Font (Larger and New Font) */
+body {
+    font-family: 'Arial', sans-serif; /* Neutral font */
+    font-size: 18px;                   /* Default font size for readability */
+    line-height: 1.6;                  /* Increase line height for better readability */
+}
