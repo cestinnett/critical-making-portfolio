@@ -10,13 +10,16 @@ Me
 
 ## Fevertising Comic/Zine
 Some info to go here.
-- [View the comic/zine] (link)
+- [View the comic/zine]
 
 ## Breaking the Glass Ceiling Game
 More info
-- [Play the game] (bitsy.html)
+- [Play the game](bitsy.html)
 
-## Postfeminism Ad Generator in Tracery
+## Postfeminism Ad Generator using Tracery
 More info
-- [Generate some ads] (Femvertising.html)
+- [Generate some ads](grammar.htm)
 
+## Postfeminism Ad Campaign on Twine
+More info
+- [Give it a try](Femvertising.html)
