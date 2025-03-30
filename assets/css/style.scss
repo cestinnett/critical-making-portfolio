@@ -3,52 +3,72 @@
 
 @import "{{ site.theme }}";
 
+/* Change Header Color */
 header {
-
-    background: black;
-
+    background: #2C3E50; /* Dark Slate Blue */
+    color: white; /* Text color in the header */
 }
 
+/* Change Button Colors */
 header a.button {
-
-    background: green
-
+    background: #2980B9; /* A more neutral, professional blue */
+    color: white; /* Make text color inside button white */
+    font-size: 16px; /* Slightly larger font for buttons */
 }
 
 aside a.button {
-
-    background: darkgreen
-
+    background: #27AE60; /* A more subdued green */
+    color: white; /* Button text in white */
 }
 
+/* Change color of slashes in the header */
+header h2:before {
+    color: #F39C12; /* A goldish color for emphasis */
+}
+
+/* Change colors for subheadings */
+#main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h6 {
+    color: #34495E; /* A darker shade of gray/blue */
+}
+
+/* Increase font size and change font family */
+body {
+    font-family: 'Arial', sans-serif; /* Change to a more neutral, modern font */
+    font-size: 18px; /* Larger text for easier reading */
+}
+
+/* Adjust slashes' color in headers */
 #main-content h2:before {
-
-    color: lightgreen;
-
+    color: #F39C12; /* A goldish color */
 }
 
 #main-content h1:before {
-
-    color: lightgreen;
-
+    color: #F39C12; /* A goldish color */
 }
 
-#main-content h3 {
+/* Ensure the content spans full width */
+#content-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-    color: lightgreen;
+.inner {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 
-  }
+#main-content {
+    width: 100%;
+}
 
-  #main-content h4 {
+header {
+    width: 100%;
+    padding: 0;
+}
 
-    color: lightgreen;
-
-  }
-
-  #main-content h6 {
-
-    color: lightgreen;
-
-  }
-
-  
+footer {
+    width: 100%;
+    padding: 0;
+}
