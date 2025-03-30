@@ -3,8 +3,6 @@
 
 @import "{{ site.theme }}";
 
-@import "{{ site.theme }}";
-
 header {
 
     background: black;
@@ -52,31 +50,3 @@ aside a.button {
     color: lightgreen;
 
   }
-
-/* Ensure the content spans full width */
-#content-wrapper {
-    width: 100%;  /* Full width of the viewport */
-    margin: 0;    /* Remove margins */
-    padding: 0;   /* Remove padding */
-  }
-  
-  .inner {
-    width: 100%;  /* Make the inner content span 100% of the available space */
-    padding: 0;   /* Remove any padding */
-    margin: 0;    /* Remove any margin */
-  }
-  
-  #main-content {
-    width: 100%;  /* Make sure main content spans 100% */
-  }
-  
-  header {
-    width: 100%;  /* Ensure the header spans full width */
-    padding: 0;   /* Remove any padding from header */
-  }
-  
-  footer {
-    width: 100%;  /* Ensure the footer spans full width */
-    padding: 0;   /* Remove any padding from footer */
-  }
-  
