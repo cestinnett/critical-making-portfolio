@@ -8,12 +8,15 @@ title: Critical Making Portfolio
 # Heading
 Me
 
-## About My Work
-Some really cool stuff about what I do.
+## Fevertising Comic/Zine
+Some info to go here.
+- [View the comic/zine] (link)
 
-## Check Out What I've Done
-- Topic 1
-- Topic 2
-- Topic 3
-- Topic 4
-- Topic 5
+## Breaking the Glass Ceiling Game
+More info
+- [Play the game] (bitsy.html)
+
+## Postfeminism Ad Generator in Tracery
+More info
+- [Generate some ads] (Femvertising.html)
+
