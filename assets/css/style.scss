@@ -1,0 +1,20 @@
+@import "{{ site.theme }}";
+
+/* Custom styles */
+body {
+    background-color: #f7f7f7; /* Light gray background */
+  }
+  
+  .site-title {
+    color: #003366; /* Dark blue title */
+  }
+  
+  a {
+    color: #e63946; /* Red link color */
+  }
+  
+  /* More specific overrides */
+  .post {
+    border-bottom: 2px solid #ddd; /* Adding a border to each post */
+  }
+  
