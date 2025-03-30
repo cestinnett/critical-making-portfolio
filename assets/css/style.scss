@@ -3,28 +3,52 @@
 
 @import "{{ site.theme }}";
 
-/* Change header background color */
 header {
-    background-color: #333333; /* Dark gray */
+
+    background: black;
+
+}
+
+header a.button {
+
+    background: green
+
+}
+
+aside a.button {
+
+    background: darkgreen
+
+}
+
+#main-content h2:before {
+
+    color: lightgreen;
+
+}
+
+#main-content h1:before {
+
+    color: lightgreen;
+
+}
+
+#main-content h3 {
+
+    color: lightgreen;
+
   }
-  
-  /* Change text color in the main content area */
-  #main-content {
-    color: #333333; /* Dark gray text */
+
+  #main-content h4 {
+
+    color: lightgreen;
+
   }
-  
-  /* Change the color of the main heading */
-  h1 {
-    color: #ff5733; /* Orange */
+
+  #main-content h6 {
+
+    color: lightgreen;
+
   }
-  
-  /* Change link and button colors */
-  a.button {
-    background-color: #ff5733; /* Orange */
-    color: white; /* White text */
-  }
-  
-  a.button:hover {
-    background-color: #d04e2e; /* Darker orange for hover effect */
-  }
+
   
