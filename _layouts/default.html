@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>{{ site.title }}</title>
+
+    <!-- Link to custom CSS (compiled from SCSS) -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </header>
+
+    <main>
+      <!-- This is where the content from your pages/posts will go -->
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+  </body>
+</html>
