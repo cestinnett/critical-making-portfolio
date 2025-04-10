@@ -11,7 +11,7 @@ In this portfolio, I explore how digital tools can be used not just as creative 
 ## Fevertising Comic/Zine
 This comic critiques how brands use postfeminist language to sell empowerment. Through DIY production and a zine-like format, I explored how advertising reinforces the idea that women need products to feel confident. The narrative shifts from empowering ads to a woman rejecting these messages, highlighting the contradictions within femvertising.
 
-[**Check it out**] (Femvertising Zine.pdf)
+[**Check it out**] (zine.pdf)
 
 ## Postfeminism Ad Campaign using Twine
 For my Twine project, I explored how creative teams navigate the challenges of making a feminist ad campaign. Through branching decisions, I examined the tension between empowerment and performativity in advertising. Twine’s interactive format helped me illustrate how creative decisions are shaped by stakeholder feedback, public reaction, and risk management in today’s cultural climate.
